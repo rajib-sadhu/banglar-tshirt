@@ -33,7 +33,7 @@ const Home = () => {
     };
 
     const handleRemoveFromCart = id =>{
-        toast.error(`${id} is removed!`)
+        toast(`${id} is removed!`)
         const remaining = cart.filter(ts=>ts._id!==id);
         setCart(remaining)
     }

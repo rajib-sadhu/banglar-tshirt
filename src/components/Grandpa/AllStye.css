@@ -1,0 +1,15 @@
+.all-style{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-style div{
+    border: 2px solid green;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 5px;
+}
